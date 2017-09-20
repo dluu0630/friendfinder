@@ -1,5 +1,4 @@
-var friends 		= require('../data/friends.js');
-var path 			= require('path');
+var friends = require('../data/friends.js');
 
 // API GET 
 
