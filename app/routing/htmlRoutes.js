@@ -3,7 +3,7 @@ var path = require('path');
 // Routing
 
 module.exports = function(app) {
-// // Basic route that sends the userto the home page
+// Basic route that sends the user to the home page
   app.get('/', function (req, res) {
       res.sendFile(path.join(__dirname, '/../public/home.html'));
   });
